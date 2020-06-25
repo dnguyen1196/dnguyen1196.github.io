@@ -1,11 +1,20 @@
 ---
 layout: single
 title: Convex Optimization
-permalink: writings/optimization/convexity
+permalink: writings/optimization/convexopt
 author_profile: false
 ---
 
+## Convexity
 
-Convexity is a fundamental concept in optimization
 
-$$\mathbb{E}$$
+## Algorithms
+
+
+## Useful resources
+
+Moritz Hardt's [lecture notes]() on convex optimization
+
+John Duchi's [lecture notes]() on stochastic optimization
+
+Elad Hazan's [lecture notes]() on online convex optimization
