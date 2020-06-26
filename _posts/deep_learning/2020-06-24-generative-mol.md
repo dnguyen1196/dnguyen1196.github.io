@@ -5,8 +5,16 @@ permalink: writings/deep_learning/generative_mol
 author_profile: false
 ---
 
-## Why graph neural networks?
+## Graph neural networks
 
+
+## Geometric deep learning
+
+
+### What properties of the molecules should we incorporate
+- Bond angle
+- Types of atoms
+- 
 
 ## Why deep generative models?
 
@@ -19,4 +27,14 @@ author_profile: false
 
 ## Open problems
 
-### Fundamental problem: 
+### Fundamental problem
+
+1. Incorporate physical and chemical principles into the generative model
+- Geometric deep learning
+- 
+
+2. Noise model 
+- Chemical measurement can be really noisy.
+- 
+
+
