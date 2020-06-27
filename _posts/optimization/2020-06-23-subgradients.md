@@ -62,7 +62,7 @@ TODO
 
 <br />
 
-**3. If a convex function $f$ is differentiable at point $x$, $\partial f(x) = \{ \nabla f(x) \}$.**
+**3. If a convex function $f$ is differentiable at point $x$, the subgradient is a singleton set: $$\partial f(x) = \{ \nabla f(x) \}$$**
 <details><summary> Proof </summary>
 TODO
 </details>
