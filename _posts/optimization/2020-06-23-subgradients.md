@@ -7,7 +7,7 @@ author_profile: false
 
 ## Definition
 
-The subgradient generalizes the gradient. For a convex function $f$, its subgradient at a point $x$ is:
+The subgradient (also called subdifferential) generalizes the gradient. For a convex function $f$, its subgradient at a point $x$ is:
 
 $$ \partial f(x) = \{  g \,|\, f(x) + g^\top (y-x) \leq f(y) \,\,\forall y \in \mathbf{dom}f \} $$
 
@@ -53,16 +53,39 @@ Thus $\frac{-1}{b}a \in \partial f(x)$
 <br />
 
 **2. The subgradient can also be written as:**
-   $$ \partial f(x) = \{ g \,|\, g^\top v \leq f'(x, v) \,\, \forall v \} $$
+   $$ \partial f(x) = \{ g \,|\, g^\top v \leq f_v'(x) \,\, \forall v \} $$
 
 <details>
 <summary>Proof</summary>
-TODO
+Let $S = \{ g \,|\, g^\top v \leq f_v'(x) \,\, \forall v \}$, we want to prove that $g \in S$ if and only if $g \in \partial f(x)$. For the forward direction, suppose $g \in S$, then for any $v$:
+$$ g^\top v \leq f'_v(x) $$
+Let $v = \frac{1}{t}(y-x)$ for some $y$ and $t > 0$ (so any $v$ can be written in this way). We see that:
+$$ \lim_{t\rightarrow 0} g^\top \frac{y-x}{t} \leq \lim_{t\rightarrow 0} \frac{f(x+tv)-f(x)}{t} = \frac{f(x+ t\frac{y-x}{t})-f(x)}{t} $$ 
+$$= \frac{f(y)-f(x)}{t}$$
+By monotonicity of limits, we have:
+$$ g^\top (y-x) \leq f(y)-f(x) $$
+
+<br/>
+For the reverse direction, suppose now that $g \in \partial f(x)$, or $f(y) \geq f(x) + g^\top (y-x)$. Some rearrangment gives:
+$$ g^\top (y-x) \leq f(y)-f(x) $$
+This inequality holds for all $y$. Now let $y-x = tv$ for some $v$ and $t > 0$. We have:
+$$ g^\top tv \leq f(x+tv)-f(x)$$
+Dividing both sides by $t$ and since this inequality holds for any $t > 0$, it holds for $t \rightarrow 0$.
+
 </details>
 
 <br />
 
-**3. If a convex function $f$ is differentiable at point $x$, the subgradient is a singleton set: $$\partial f(x) = \{ \nabla f(x) \}$$**
+**3. The directional derivative can be written as:**
+$$ f'_v(x) = \sup_{g \in \partial f(x)} g^\top v $$
+
+<details>
+<summary>Proof</summary>
+</details>
+
+<br />
+
+**4. If a convex function $f$ is differentiable at point $x$, the subgradient is a singleton set: $$\partial f(x) = \{ \nabla f(x) \}$$**
 <details><summary> Proof </summary>
 TODO
 </details>
