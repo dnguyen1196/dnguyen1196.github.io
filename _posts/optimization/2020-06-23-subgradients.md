@@ -81,6 +81,25 @@ $$ f'_v(x) = \sup_{g \in \partial f(x)} g^\top v $$
 
 <details>
 <summary>Proof</summary>
+Firstly, we need to note that $f'_v(x)$ is *positively homogenous* in $v$. That is $f'_{tv}(x) = t f'_{v}(x)$. TODO: Prove that $f'_v(x)$ is convex in $v$ from first principles.
+
+<br/>
+An interesting property of convex functions is that a convex function can be written as the point wise supremum of all linear global underestimator. In other words, if $h(x)$ is convex, then it can also be written as:
+
+$$ h(v) = \sup_g \{ g^\top v + b \,|\, g^\top w + b \leq h(w) \forall w \} $$
+
+Now applying this to $f'_v(x)$ which is convex in $v$. We have:
+
+$$ f'_v(x) = \sup_g \{ g^\top v + b \,|\, g^\top w + b \leq f'_w(x) \forall w \} $$
+
+Now, we use the positive homogeneity of $f'_v(x)$ to note that $f'_0(x) = 0 f'_v(x) = 0$. Therefore $b$ must be 0? (TODO: prove this). We thus get
+$$ f'_v(x) = \sup_g \{ g^\top v \,|\, g^\top w \leq f'_w(x) \forall w \} $$
+If we squint at this for a while, we'll realize that 
+
+$$ \{ g  \,|\, g^\top w \leq f'_w(x) \forall w \} $$
+
+Is the very sub-differential
+
 </details>
 
 <br />
