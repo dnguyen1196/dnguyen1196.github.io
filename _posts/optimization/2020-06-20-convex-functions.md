@@ -65,4 +65,4 @@ The **gradient**
 
 The **subgradient**
 
-[Subgradient]({{ site.baseurl }}{% link _posts/optimization/2020-06-23-subgradients.md %})
+![Subgradient]({{ site.baseurl }}{% link _posts/optimization/2020-06-23-subgradients.md %})

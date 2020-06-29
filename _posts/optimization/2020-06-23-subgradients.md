@@ -110,11 +110,12 @@ TODO
 </details>
 
 
-## Subgradient optimization
+## Subgradient methods
 
+Interesting facts about subgradient methods:
+- TODO
 
-## Stochastic subgradient optimization
-
+[My annotated Subgradient Method slides](/assets/images/subgrad-method-slides.pdf) 
 
 ## Useful notes
 
