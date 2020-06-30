@@ -50,12 +50,12 @@ Suppose $B = \mathbf{int}\, C$ is compact. Then there exists a $L$ such that $||
 
 ## Directional derivative
 
-The **directional derivative**
-
-The directional derivative, when viewed as a function of the *direction* v, is **positively homogenous** in $v$
+The **directional derivative** is defined as $f'_v(x) = \lim_{t\rightarrow 0}\frac{f(x+tv)-f(x)}{t}$. 
 
 A different way of writing the directional derivative for a *convex* function $f$ is:
-$$ f'_v(x) = \inf_{t>0} \frac{f(x+tv)-f(x)}{t} $$
+$$ f'_v(x) = \inf_{t>0} \frac{f(x+tv)-f(x)}{t} $$.
+
+An interesting fact is that: the directional derivative, when viewed as a function of the *direction* v, is **positively homogenous** in $v$.
 
 ## Gradient
 
@@ -63,6 +63,9 @@ The **gradient**
 
 ## Subgradient
 
-The **subgradient**
+The **subgradient** (also called subdifferential) is a generalization of the gradient. See my [notes]({{ site.baseurl }}{% link _posts/optimization/2020-06-23-subgradients.md %}) on subgradient and subgradient methods.
 
-![Subgradient]({{ site.baseurl }}{% link _posts/optimization/2020-06-23-subgradients.md %})
+## Duality
+
+
+## The Hessian

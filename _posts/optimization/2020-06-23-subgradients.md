@@ -106,7 +106,9 @@ Is the very sub-differential
 
 **4. If a convex function $f$ is differentiable at point $x$, the subgradient is a singleton set: $$\partial f(x) = \{ \nabla f(x) \}$$**
 <details><summary> Proof </summary>
-TODO
+We have, for any $g \in \partial f(x)$:
+$$f'_v(x) = \nabla f(x)^\top v \geq g^\top v$$
+Of course, this also has to hold for all $v$. Thus, if we replace $v$ by $-v$, we arrive at the desired conclusion.
 </details>
 
 
@@ -115,7 +117,7 @@ TODO
 Interesting facts about subgradient methods:
 - TODO
 
-[My annotated Subgradient Method slides](/assets/images/subgrad-method-slides.pdf) 
+[My annotated Subgradient Method slides](/assets/images/writings/optimization/subgrad-method-slides.pdf), taken from Stanford [Convex Optimization II course](http://web.stanford.edu/class/ee364b/)
 
 ## Useful notes
 
