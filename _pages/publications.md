@@ -1,20 +1,9 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-# description: Some projects I've been working on
-# years: [1956, 1950, 1935, 1905]
+title: publications
 nav: true
 ---
-<!-- _pages/publications.md -->
-<!-- <div class="publications">
-
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div> -->
 
 ## Bayesian Active Drug Discovery (Workshop on Real-world Medical Applications of ML ICML 20')
 
