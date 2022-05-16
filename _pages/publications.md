@@ -20,4 +20,8 @@ Experiments on both synthetic and real data sets corroborate our analysis.
 
 ## Efficient Top-K Recovery from Choice Data
 
-In submission
+Accepted to Conference on Uncertainty in Artificial Intelligence (UAI 2022).
+
+## A Spectral Approach to Item Response Theory
+
+In submission.
