@@ -13,7 +13,7 @@ nav: true
 We combine graph neural networks with Gaussian Process regression through deep graph kernel learning and demonstrate its robustness on quantitative structure-activity relationship (QSAR) modeling tasks. Equipped with such a model, a Bayesian optimization experiment on chemical space is conducted and compared against the time-stamped acquisition records of a real-world, time-sensitive molecular optimization mission: the identification of potent inhibitors of the main protease of SARS-CoV-2, the viral pathogen responsible for the COVID pandemic.
 </details>
 
-Publised at [ICML 2020](https://realworldml.github.io/files/cr/48_BADD_paper_workshop.pdf) workshop on the applications of active learning.
+Publised at [ICML 2020's](https://realworldml.github.io/files/cr/48_BADD_paper_workshop.pdf) workshop on the applications of active learning.
 
 ## Differentially Private Spectral Ranking
 
@@ -31,7 +31,7 @@ Spectral ranking is a popular approach to rank aggregation, wherein the preferen
 The intersection of learning to rank and choice modeling is an active area of research with applications in e-commerce, information retrieval and the social sciences. In some applications such as recommendation systems, the statistician is primarily interested in recovering the set of the top ranked items from a large pool of items as efficiently as possible using passively collected discrete choice data, i.e., the user picks one item from a set of multiple items. Motivated by this practical consideration, we propose the choice-based Borda count algorithm as a fast and accurate ranking algorithm for top K-recovery i.e., correctly identifying all of the top K items. We show that the choice-based Borda count algorithm has optimal sample complexity for top-K recovery under a broad class of random utility models. We prove that in the limit, the choice-based Borda count algorithm produces the same top-K estimate as the commonly used Maximum Likelihood Estimate method but the former's speed and simplicity brings considerable advantages in practice. Experiments on both synthetic and real datasets show that the counting algorithm is competitive with commonly used ranking algorithms in terms of accuracy while being several orders of magnitude faster.
 </details>
 
-Accepted to Conference on Uncertainty in Artificial Intelligence (UAI 2022). [Arxiv](https://arxiv.org/abs/2206.11995)
+Accepted to Conference on Uncertainty in Artificial Intelligence (UAI 2022). [Arxiv](https://arxiv.org/abs/2206.11995).
 
 ## A Spectral Approach to Item Response Theory
 
