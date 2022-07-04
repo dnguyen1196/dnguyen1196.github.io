@@ -23,6 +23,8 @@ Publised at [ICML 2020's](https://realworldml.github.io/files/cr/48_BADD_paper_w
 Spectral ranking is a popular approach to rank aggregation, wherein the preferences or choices of several individuals are aggregated to produce an overall ranking of alternatives. However, in many applications -- including for example recommender systems and elections -- privacy of individuals' choice data is a key concern. Unfortunately, standard spectral ranking algorithms are not designed with this concern in mind. In this paper, we propose a simple fix: we suggest using a randomized response mechanism to collect individuals' choice data. By design, the resulting private spectral ranking algorithm achieves the strong guarantees of local differential privacy, which in turn also leads to a global differential privacy guarantee. We quantify the privacy-utility tradeoff of our algorithm under the popular multinomial logit (MNL) choice model -- which has also been used to analyze previous spectral ranking algorithms -- by deriving a sample complexity bound that makes the dependence on the privacy parameter explicit. Experiments on both synthetic and real data sets corroborate our analysis. 
 </details>
 
+Work in progress.
+
 ## Efficient Top-K Recovery from Choice Data
 
 <details>
@@ -40,6 +42,8 @@ Accepted to Conference on Uncertainty in Artificial Intelligence (UAI 2022). [Ar
 <br>
 The Rasch model is one of the most fundamental models in item response theory and has wide-ranging applications from education testing to recommendation systems. In a universe with $n$ users and $m$ items, the Rasch model assumes that the binary response $X_{li} \in \{0,1\}$ of a user $l$ with parameter $\theta^*_l$ to an item $i$ with parameter $\beta^*_i$ (e.g., a user likes a movie, a student correctly solves a problem) is distributed as $\Pr(X_{li}=1) = 1/(1 + \exp{-(\theta^*_l - \beta^*_i)})$. In this paper, we propose a \emph{new item estimation} algorithm for this celebrated model (i.e., to estimate $\beta^*$). The core of our algorithm is the computation of the stationary distribution of a Markov chain defined on an item-item graph. We complement our algorithmic contributions with finite-sample error guarantees, the first of their kind in the literature, showing that our algorithm is consistent and enjoys favorable optimality properties. We discuss practical modifications to accelerate and robustify the algorithm that practitioners can adopt. Experiments on synthetic and real-life datasets, ranging from small education testing datasets to large recommendation systems datasets show that our algorithm is scalable, accurate, and competitive with the most commonly used methods in the literature.
 </details>
+
+In submission.
 
 ## Spectral Approaches to Ranking from Pairwise Comparisons
 
