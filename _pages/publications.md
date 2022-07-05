@@ -5,7 +5,7 @@ title: publications
 nav: true
 ---
 
-## Bayesian Active Drug Discovery (Workshop on Real-world Medical Applications of ML @ ICML 20')
+## Bayesian Active Drug Discovery
 
 <details>
 <summary>Abstract</summary>
