@@ -5,7 +5,9 @@ title: publications
 nav: true
 ---
 
-## Bayesian Active Drug Discovery
+# Publications
+
+### Bayesian Active Drug Discovery
 
 <details>
 <summary>Abstract</summary>
@@ -15,17 +17,8 @@ We combine graph neural networks with Gaussian Process regression through deep g
 
 Publised at [ICML 2020's](https://realworldml.github.io/files/cr/48_BADD_paper_workshop.pdf) workshop on the applications of active learning.
 
-## Differentially Private Spectral Ranking
 
-<details>
-<summary>Abstract</summary>
-<br>
-Spectral ranking is a popular approach to rank aggregation, wherein the preferences or choices of several individuals are aggregated to produce an overall ranking of alternatives. However, in many applications -- including for example recommender systems and elections -- privacy of individuals' choice data is a key concern. Unfortunately, standard spectral ranking algorithms are not designed with this concern in mind. In this paper, we propose a simple fix: we suggest using a randomized response mechanism to collect individuals' choice data. By design, the resulting private spectral ranking algorithm achieves the strong guarantees of local differential privacy, which in turn also leads to a global differential privacy guarantee. We quantify the privacy-utility tradeoff of our algorithm under the popular multinomial logit (MNL) choice model -- which has also been used to analyze previous spectral ranking algorithms -- by deriving a sample complexity bound that makes the dependence on the privacy parameter explicit. Experiments on both synthetic and real data sets corroborate our analysis. 
-</details>
-
-Work in progress.
-
-## Efficient Top-K Recovery from Choice Data
+### Efficient Top-K Recovery from Choice Data
 
 <details>
 <summary>Abstract</summary>
@@ -35,7 +28,7 @@ The intersection of learning to rank and choice modeling is an active area of re
 
 Accepted to Conference on Uncertainty in Artificial Intelligence (UAI 2022). [Arxiv](https://arxiv.org/abs/2206.11995).
 
-## A Spectral Approach to Item Response Theory
+### A Spectral Approach to Item Response Theory
 
 <details>
 <summary>Abstract</summary>
@@ -45,6 +38,19 @@ The Rasch model is one of the most fundamental models in item response theory an
 
 In submission.
 
-## Spectral Approaches to Ranking from Pairwise Comparisons
+
+# Manuscript and Technical Reports
+
+### Spectral Approaches to Ranking from Pairwise Comparisons
 
 Technical report in progress. 
+
+### Differentially Private Spectral Ranking
+
+<details>
+<summary>Abstract</summary>
+<br>
+Spectral ranking is a popular approach to rank aggregation, wherein the preferences or choices of several individuals are aggregated to produce an overall ranking of alternatives. However, in many applications -- including for example recommender systems and elections -- privacy of individuals' choice data is a key concern. Unfortunately, standard spectral ranking algorithms are not designed with this concern in mind. In this paper, we propose a simple fix: we suggest using a randomized response mechanism to collect individuals' choice data. By design, the resulting private spectral ranking algorithm achieves the strong guarantees of local differential privacy, which in turn also leads to a global differential privacy guarantee. We quantify the privacy-utility tradeoff of our algorithm under the popular multinomial logit (MNL) choice model -- which has also been used to analyze previous spectral ranking algorithms -- by deriving a sample complexity bound that makes the dependence on the privacy parameter explicit. Experiments on both synthetic and real data sets corroborate our analysis. 
+</details>
+
+Work in progress.
