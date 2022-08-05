@@ -1,13 +1,12 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
+description: Thanks for checking out my work!
 nav: true
 ---
 
-# Publications
-
-### Bayesian Active Drug Discovery
+#### Bayesian Active Drug Discovery
 
 <details>
 <summary>Abstract</summary>
@@ -17,8 +16,9 @@ We combine graph neural networks with Gaussian Process regression through deep g
 
 Publised at [ICML 2020's](https://realworldml.github.io/files/cr/48_BADD_paper_workshop.pdf) workshop on the applications of active learning.
 
+<br>
 
-### Efficient Top-K Recovery from Choice Data
+#### Efficient Top-K Recovery from Choice Data
 
 <details>
 <summary>Abstract</summary>
@@ -28,7 +28,9 @@ The intersection of learning to rank and choice modeling is an active area of re
 
 Accepted to Conference on Uncertainty in Artificial Intelligence (UAI 2022). [Arxiv](https://arxiv.org/abs/2206.11995).
 
-### A Spectral Approach to Item Response Theory
+<br>
+
+#### A Spectral Approach to Item Response Theory
 
 <details>
 <summary>Abstract</summary>
@@ -38,19 +40,37 @@ The Rasch model is one of the most fundamental models in item response theory an
 
 In submission.
 
+<br>
 
-# Manuscript and Technical Reports
+#### Efficient and Accurate Learning of Mixtures of Plackett-Luce Models
 
-### Spectral Approaches to Ranking from Pairwise Comparisons
+<details>
+<summary>Abstract</summary>
+<br>
+Mixture models of Plackett-Luce (PL) -- one of the most fundamental ranking models -- are an active research area of both theoretical and practical significance. Most previously proposed parameter estimation algorithms instantiate the EM algorithm, often with random initialization. However, such an initialization scheme may not yield a good initial estimate and the algorithms require multiple restarts, incurring a large time complexity. As for the EM procedure, while the E-step can be performed efficiently, maximizing the log-likelihood in the M-step is inefficient due to the combinatorial nature of the PL likelihood function (Gormley and Murphy 2008). Therefore, previous authors favor algorithms that maximize surrogate likelihood functions (Zhao et al. 2018, 2020). However, the final estimate may deviate from the true maximum likelihood estimate as a consequence. In this paper, we address these known limitations. We propose an initialization algorithm that can provide a provably accurate initial estimate and an EM algorithm that maximizes the true log-likelihood function efficiently. Experiments on both synthetic and real datasets show that our algorithm is competitive in terms of accuracy and speed to baseline algorithms.
+</details>
 
-Technical report in progress. 
+In submission.
 
-### Differentially Private Spectral Ranking
 
+<br>
+
+
+***
+## Manuscript and Technical Reports
+
+#### Spectral Approaches to Ranking from Pairwise Comparisons
+<details>
+<summary>Abstract</summary>
+<br>
+Ranking from pairwise comparisons is a fundamental area in machine learning with diverse applications in recommendation systems, voting theory, information retrieval, etc. In recent years, a class of ranking algorithms based on spectral methods (Negahban et al. 2017, Chen et al 2019, Maystre and Grossglauser 2015, Agarwal et al. 2018) has received increased interest thanks to their good empirical performance, scalability and strong theoretical guarantees. In this paper, we will study in depth two such algorithms -- Rank Centrality (Negahban et al. 2017) and Iterative Luce Spectral Ranking (Maystre and Grossglauser 2015).
+</details>
+
+<br>
+
+#### Differentially Private Spectral Ranking
 <details>
 <summary>Abstract</summary>
 <br>
 Spectral ranking is a popular approach to rank aggregation, wherein the preferences or choices of several individuals are aggregated to produce an overall ranking of alternatives. However, in many applications -- including for example recommender systems and elections -- privacy of individuals' choice data is a key concern. Unfortunately, standard spectral ranking algorithms are not designed with this concern in mind. In this paper, we propose a simple fix: we suggest using a randomized response mechanism to collect individuals' choice data. By design, the resulting private spectral ranking algorithm achieves the strong guarantees of local differential privacy, which in turn also leads to a global differential privacy guarantee. We quantify the privacy-utility tradeoff of our algorithm under the popular multinomial logit (MNL) choice model -- which has also been used to analyze previous spectral ranking algorithms -- by deriving a sample complexity bound that makes the dependence on the privacy parameter explicit. Experiments on both synthetic and real data sets corroborate our analysis. 
 </details>
-
-Work in progress.
