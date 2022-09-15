@@ -16,6 +16,6 @@ profile:
 # social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there, I'm Duc. I'm a Ph.D. student at the department of Computer and Information Science at the University of Pennsylvania. I do research on machine learning, with a focus on probabilistic models and their applications to ranking, crowdsourcing and recommendation systems.
+Hi there, I'm Duc. I'm a 4th-year Ph.D. student at the department of Computer and Information Science at the University of Pennsylvania (with an expected graduation of Summer 2024). I do research on machine learning, with a focus on probabilistic models and their applications to ranking, crowdsourcing and recommendation systems. Feel free to have a quick look at my research page and reach out at **mdnguyen at upenn at edu dot com**.
 
-My advisor is Prof. [Shivani Agarwal](https://www.shivani-agarwal.net/) (Computer Science) and Prof. [Anderson Y Zhang](http://www.andersonzhang.com/) (Wharton Statistics). Before Penn, I did my BS in Computer Science at Tufts University where I worked with [Shuchin Aeron](http://www.ece.tufts.edu/~shuchin/), [Mike Hughes](https://www.michaelchughes.com/) and [Roni Khardon](http://homes.sice.indiana.edu/rkhardon/).
+At Penn, I work with Prof. [Anderson Y Zhang](http://www.andersonzhang.com/) (Wharton Statistics) and Prof. [Shivani Agarwal](https://www.shivani-agarwal.net/) (Computer Science). Before Penn, I did my BS in Computer Science at Tufts University where I worked with [Shuchin Aeron](http://www.ece.tufts.edu/~shuchin/), [Mike Hughes](https://www.michaelchughes.com/) and [Roni Khardon](http://homes.sice.indiana.edu/rkhardon/).
