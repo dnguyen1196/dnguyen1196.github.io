@@ -36,7 +36,7 @@ The Rasch model is one of the most fundamental models in item response theory an
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to the Conference on Neural Information Processing (Neurips 2022).
+With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to the Conference on Neural Information Processing (Neurips 2022). [Arxiv](https://arxiv.org/abs/2210.04317).
 
 <br>
 
@@ -63,7 +63,7 @@ Item response theory is the study of human-centric decision models with diverse 
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). In progress.
+With [Anderson Y Zhang](http://www.andersonzhang.com/). In submission.
 
 <br>
 
