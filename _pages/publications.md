@@ -23,7 +23,7 @@ The intersection of learning to rank and choice modeling is an active area of re
 </details>
 
 <br>
-Solo paper. Accepted to the Conference on Uncertainty in Artificial Intelligence (UAI 2022). [Arxiv](https://arxiv.org/abs/2206.11995).
+Solo paper. Accepted to UAI 2022. [Arxiv](https://arxiv.org/abs/2206.11995).
 
 <br>
 
@@ -36,7 +36,7 @@ The Rasch model is one of the most fundamental models in item response theory an
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to the Conference on Neural Information Processing (Neurips 2022). [Arxiv](https://arxiv.org/abs/2210.04317).
+With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to Neurips 2022. [Arxiv](https://arxiv.org/abs/2210.04317).
 
 <br>
 
@@ -49,7 +49,7 @@ Mixture models of Plackett-Luce (PL) -- one of the most fundamental ranking mode
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). In submission.
+With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to AAAI 2023.
 
 <br>
 
@@ -64,8 +64,19 @@ Item response theory is the study of human-centric decision models with diverse 
 
 <br>
 With [Anderson Y Zhang](http://www.andersonzhang.com/). In submission.
+<br>
+
+#### Minimax Optimality of the Spectral Algorithm for Z2 and Permutation Synchronization
+
+<!-- <details>
+<summary>Abstract</summary>
+<br>
+</details> -->
 
 <br>
+Work in progress.
+<br>
+
 
 
 ***
