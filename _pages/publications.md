@@ -50,7 +50,6 @@ Mixture models of Plackett-Luce (PL) -- one of the most fundamental ranking mode
 
 <br>
 With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to AAAI 2023.
-
 <br>
 
 
@@ -63,7 +62,7 @@ Item response theory is the study of human-centric decision models with diverse 
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). In submission.
+With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to AISTATS 2023.
 <br>
 
 #### Minimax Optimality of the Spectral Algorithm for Z2 and Permutation Synchronization
