@@ -49,7 +49,7 @@ Mixture models of Plackett-Luce (PL) -- one of the most fundamental ranking mode
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). In Proceedings of AAAI 2023. [Arxiv](https://arxiv.org/pdf/2302.05343.pdf)
+With [Anderson Y Zhang](http://www.andersonzhang.com/). In Proceedings of AAAI 2023. [Arxiv](https://arxiv.org/pdf/2302.05343.pdf). [Code](https://github.com/dnguyen1196/rums)
 <br>
 
 
