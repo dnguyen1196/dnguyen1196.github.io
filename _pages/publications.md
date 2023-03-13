@@ -36,7 +36,7 @@ The Rasch model is one of the most fundamental models in item response theory an
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). In Proceedings of Neurips 2022. [Arxiv](https://arxiv.org/abs/2210.04317).
+With [Anderson Y Zhang](http://www.andersonzhang.com/). In Proceedings of Neurips 2022 **Spotlight (top 5%)**. [Arxiv](https://arxiv.org/abs/2210.04317).
 
 <br>
 
