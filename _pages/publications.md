@@ -62,19 +62,19 @@ Item response theory is the study of human-centric decision models with diverse 
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to AISTATS 2023.
+With [Anderson Y Zhang](http://www.andersonzhang.com/). Accepted to AISTATS 2023. [Arxiv](https://arxiv.org/abs/2303.06234).
 <br>
 
-#### A New and Optimal Spectral Algorithm for Phase Synchronization
+#### A Novel and Optimal Spectral Method for Permutation Synchronization
 
 <details>
 <summary>Abstract</summary>
 <br>
-A new and optimal spectral algorithm for permutation group synchronization.
+Permutation synchronization is an important problem in computer science that constitutes the key step of many computer vision tasks. The goal is to recover n latent permutations from their noisy and incomplete pairwise measurements. In recent years, spectral methods have gained increasing popularity thanks to their simplicity and computational efficiency. Spectral methods utilize the leading eigenspace U of the data matrix and its block submatrices $U_1, U_2, \ldots, U_n$ to recover the permutations. In this paper, we propose a novel and statistically optimal spectral algorithm. Unlike the existing methods which use $\{U_j U_1^\top\}_{j\geq 2}$, ours constructs an anchor matrix M by aggregating useful information from all the block submatrices and estimates the latent permutations through $\{U_jM^\top \}_{j\geq 2}. This modification overcomes a crucial limitation of the existing methods caused by the repetitive use of $U_1$ and leads to an improved numerical performance. To establish the optimality of the proposed method, we carry out a fine-grained spectral analysis and obtain a sharp exponential error bound that matches the minimax rate.
 </details>
 
 <br>
-With [Anderson Y Zhang](http://www.andersonzhang.com/). Work in progress.
+With [Anderson Y Zhang](http://www.andersonzhang.com/). [Arxiv](https://arxiv.org/abs/2303.12051)
 <br>
 
 
