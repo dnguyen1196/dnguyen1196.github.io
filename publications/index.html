@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>        
+    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Duc M. Nguyen | Publications</title>
+    <meta name="author" content="Duc M. Nguyen" />
+    <meta name="description" content="Thanks for checking out my work!" />
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+    <!-- Styles -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>:)</text></svg>">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://dnguyen1196.github.io/publications/">
+
+    <!-- Dark Mode -->
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://dnguyen1196.github.io//"><span class="font-weight-bold">Duc</span> M.  Nguyen</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/publications/">Publications<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Publications</h1>
+            <p class="post-description">Thanks for checking out my work!</p>
+          </header>
+
+          <article>
+            <p>At a high level, <strong>learning to rank</strong> summarizes my research agenda. Specifically, I design, implement and analyze algorithms to identify the top items from user choice data, approval/disapproval responses, rankings, and from data that exhibit heterogeneity – there are multiple underlying user subpopulations.</p>
+
+<p>Towards this goal, my primary toolkit is <strong>spectral algorithms</strong>. Spectral algorithms learn low-dimensional representations of high-dimensional data (via eigendecomposition, SVD, low rank estimation, etc). They are attractive options for modern applications where high-dimensional data are abundant. Their analysis draws heavily from high dimensional statistics and matrix analysis.</p>
+
+<p>Below are some of my works.</p>
+
+<p><br></p>
+
+<h4 id="efficient-top-k-recovery-from-choice-data">Efficient Top-K Recovery from Choice Data</h4>
+
+<details>
+<summary>Abstract</summary>
+<br>
+The intersection of learning to rank and choice modeling is an active area of research with applications in e-commerce, information retrieval and the social sciences. In some applications such as recommendation systems, the statistician is primarily interested in recovering the set of the top ranked items from a large pool of items as efficiently as possible using passively collected discrete choice data, i.e., the user picks one item from a set of multiple items. Motivated by this practical consideration, we propose the choice-based Borda count algorithm as a fast and accurate ranking algorithm for top K-recovery i.e., correctly identifying all of the top K items. We show that the choice-based Borda count algorithm has optimal sample complexity for top-K recovery under a broad class of random utility models. We prove that in the limit, the choice-based Borda count algorithm produces the same top-K estimate as the commonly used Maximum Likelihood Estimate method but the former's speed and simplicity brings considerable advantages in practice. Experiments on both synthetic and real datasets show that the counting algorithm is competitive with commonly used ranking algorithms in terms of accuracy while being several orders of magnitude faster.
+</details>
+
+<p><br>
+Solo paper. In Proceedings of UAI 2022. <a href="https://arxiv.org/abs/2206.11995" target="_blank" rel="noopener noreferrer">Arxiv</a>.</p>
+
+<p><br></p>
+
+<h4 id="a-spectral-approach-to-item-response-theory">A Spectral Approach to Item Response Theory</h4>
+
+<details>
+<summary>Abstract</summary>
+<br>
+The Rasch model is one of the most fundamental models in item response theory and has wide-ranging applications from education testing to recommendation systems. In a universe with $n$ users and $m$ items, the Rasch model assumes that the binary response $X_{li} \in \{0,1\}$ of a user $l$ with parameter $\theta^*_l$ to an item $i$ with parameter $\beta^*_i$ (e.g., a user likes a movie, a student correctly solves a problem) is distributed as $\Pr(X_{li}=1) = 1/(1 + \exp{-(\theta^*_l - \beta^*_i)})$. In this paper, we propose a \emph{new item estimation} algorithm for this celebrated model (i.e., to estimate $\beta^*$). The core of our algorithm is the computation of the stationary distribution of a Markov chain defined on an item-item graph. We complement our algorithmic contributions with finite-sample error guarantees, the first of their kind in the literature, showing that our algorithm is consistent and enjoys favorable optimality properties. We discuss practical modifications to accelerate and robustify the algorithm that practitioners can adopt. Experiments on synthetic and real-life datasets, ranging from small education testing datasets to large recommendation systems datasets show that our algorithm is scalable, accurate, and competitive with the most commonly used methods in the literature.
+</details>
+
+<p><br>
+With <a href="http://www.andersonzhang.com/" target="_blank" rel="noopener noreferrer">Anderson Y Zhang</a>. In Proceedings of Neurips 2022 <strong>Spotlight (top 5%)</strong>. <a href="https://arxiv.org/abs/2210.04317" target="_blank" rel="noopener noreferrer">Arxiv</a>.</p>
+
+<p><br></p>
+
+<h4 id="efficient-and-accurate-learning-of-mixtures-of-plackett-luce-models">Efficient and Accurate Learning of Mixtures of Plackett-Luce Models</h4>
+
+<details>
+<summary>Abstract</summary>
+<br>
+Mixture models of Plackett-Luce (PL) -- one of the most fundamental ranking models -- are an active research area of both theoretical and practical significance. Most previously proposed parameter estimation algorithms instantiate the EM algorithm, often with random initialization. However, such an initialization scheme may not yield a good initial estimate and the algorithms require multiple restarts, incurring a large time complexity. As for the EM procedure, while the E-step can be performed efficiently, maximizing the log-likelihood in the M-step is inefficient due to the combinatorial nature of the PL likelihood function (Gormley and Murphy 2008). Therefore, previous authors favor algorithms that maximize surrogate likelihood functions (Zhao et al. 2018, 2020). However, the final estimate may deviate from the true maximum likelihood estimate as a consequence. In this paper, we address these known limitations. We propose an initialization algorithm that can provide a provably accurate initial estimate and an EM algorithm that maximizes the true log-likelihood function efficiently. Experiments on both synthetic and real datasets show that our algorithm is competitive in terms of accuracy and speed to baseline algorithms.
+</details>
+
+<p><br>
+With <a href="http://www.andersonzhang.com/" target="_blank" rel="noopener noreferrer">Anderson Y Zhang</a>. In Proceedings of AAAI 2023. <a href="https://arxiv.org/pdf/2302.05343.pdf" target="_blank" rel="noopener noreferrer">Arxiv</a>. <a href="https://github.com/dnguyen1196/rums" target="_blank" rel="noopener noreferrer">Code</a>
+<br></p>
+
+<h4 id="optimal-and-private-learning-from-human-response-data">Optimal and Private Learning from Human Response Data</h4>
+
+<details>
+<summary>Abstract</summary>
+<br>
+Item response theory is the study of human-centric decision models with diverse applications in psychological testing, education, recommendation systems among others. The Rasch model is one of the most fundamental models in item response theory and is still an object of active research. Despite its popularity and the human-centric nature of item response theory, two problems remain open in the Rasch model literature: analysis of the entrywise error bound for parameter estimation and privacy-preserving mechanisms. Recently, spectral methods have been shown to provide efficient and accurate parameter estimation under the Rasch model. In this work, we show that a spectral method can achieve the optimal entrywise error bound for individual parameter estimation. We also show that the spectral method is optimal in identifying the top-$K$ best item from response data, explaining the empirical success of the spectral method shown in our previous work. We propose, for the first time in the literature, a privacy preserving mechanism for item response theory, leveraging unique characteristics of the spectral algorithm. Our experiments show that our proposed mechanism preserves the privacy of the inviduals with little loss to parameter estimation accuracy.
+</details>
+
+<p><br>
+With <a href="http://www.andersonzhang.com/" target="_blank" rel="noopener noreferrer">Anderson Y Zhang</a>. Accepted to AISTATS 2023. <a href="https://arxiv.org/abs/2303.06234" target="_blank" rel="noopener noreferrer">Arxiv</a>.
+<br></p>
+
+<h4 id="a-novel-and-optimal-spectral-method-for-permutation-synchronization">A Novel and Optimal Spectral Method for Permutation Synchronization</h4>
+
+<details>
+<summary>Abstract</summary>
+<br>
+Permutation synchronization is an important problem in computer science that constitutes the key step of many computer vision tasks. The goal is to recover n latent permutations from their noisy and incomplete pairwise measurements. In recent years, spectral methods have gained increasing popularity thanks to their simplicity and computational efficiency. Spectral methods utilize the leading eigenspace U of the data matrix and its block submatrices $U_1, U_2, \ldots, U_n$ to recover the permutations. In this paper, we propose a novel and statistically optimal spectral algorithm. Unlike the existing methods which use $\{U_j U_1^\top\}_{j\geq 2}$, ours constructs an anchor matrix M by aggregating useful information from all the block submatrices and estimates the latent permutations through $\{U_jM^\top \}_{j\geq 2}. This modification overcomes a crucial limitation of the existing methods caused by the repetitive use of $U_1$ and leads to an improved numerical performance. To establish the optimality of the proposed method, we carry out a fine-grained spectral analysis and obtain a sharp exponential error bound that matches the minimax rate.
+</details>
+
+<p><br>
+With <a href="http://www.andersonzhang.com/" target="_blank" rel="noopener noreferrer">Anderson Y Zhang</a>. <a href="https://arxiv.org/abs/2303.12051" target="_blank" rel="noopener noreferrer">Arxiv</a>
+<br></p>
+
+<hr>
+<h2 id="manuscript-and-technical-reports">Manuscript and Technical Reports</h2>
+
+<h4 id="bayesian-active-drug-discovery">Bayesian Active Drug Discovery</h4>
+
+<details>
+<summary>Abstract</summary>
+<br>
+We combine graph neural networks with Gaussian Process regression through deep graph kernel learning and demonstrate its robustness on quantitative structure-activity relationship (QSAR) modeling tasks. Equipped with such a model, a Bayesian optimization experiment on chemical space is conducted and compared against the time-stamped acquisition records of a real-world, time-sensitive molecular optimization mission: the identification of potent inhibitors of the main protease of SARS-CoV-2, the viral pathogen responsible for the COVID pandemic.
+</details>
+
+<p>Publised at <a href="https://realworldml.github.io/files/cr/48_BADD_paper_workshop.pdf" target="_blank" rel="noopener noreferrer">ICML 2020’s</a> workshop on the applications of active learning.</p>
+
+<p><br></p>
+
+<h4 id="spectral-approaches-to-ranking-from-pairwise-comparisons">Spectral Approaches to Ranking from Pairwise Comparisons</h4>
+<details>
+<summary>Abstract</summary>
+<br>
+Ranking from pairwise comparisons is a fundamental area in machine learning with diverse applications in recommendation systems, voting theory, information retrieval, etc. In recent years, a class of ranking algorithms based on spectral methods (Negahban et al. 2017, Chen et al 2019, Maystre and Grossglauser 2015, Agarwal et al. 2018) has received increased interest thanks to their good empirical performance, scalability and strong theoretical guarantees. In this paper, we will study in depth two such algorithms -- Rank Centrality (Negahban et al. 2017) and Iterative Luce Spectral Ranking (Maystre and Grossglauser 2015).
+</details>
+
+<p>Ph.D. qualification deliverable.</p>
+
+<p><br></p>
+
+<h4 id="differentially-private-spectral-ranking">Differentially Private Spectral Ranking</h4>
+<details>
+<summary>Abstract</summary>
+<br>
+Spectral ranking is a popular approach to rank aggregation, wherein the preferences or choices of several individuals are aggregated to produce an overall ranking of alternatives. However, in many applications -- including for example recommender systems and elections -- privacy of individuals' choice data is a key concern. Unfortunately, standard spectral ranking algorithms are not designed with this concern in mind. In this paper, we propose a simple fix: we suggest using a randomized response mechanism to collect individuals' choice data. By design, the resulting private spectral ranking algorithm achieves the strong guarantees of local differential privacy, which in turn also leads to a global differential privacy guarantee. We quantify the privacy-utility tradeoff of our algorithm under the popular multinomial logit (MNL) choice model -- which has also been used to analyze previous spectral ranking algorithms -- by deriving a sample complexity bound that makes the dependence on the privacy parameter explicit. Experiments on both synthetic and real data sets corroborate our analysis. 
+</details>
+
+<p>MS. Thesis.</p>
+
+<p><br></p>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Duc M. Nguyen. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Mansory & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+  </body>
+</html>
+
